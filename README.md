@@ -5,7 +5,7 @@
 
 ## 1. SYSTEM ARCHITECTURE
 
-
+```
 ┌─────────────────────────────────────────────────────────────────┐
 │                     PRESENTATION LAYER                          │
 │  ┌──────────────────────────────────────────────────────────┐  │
@@ -54,7 +54,7 @@
 │  Hyperledger Fabric: 2 Orgs, 2 Peers, 1 Orderer (Solo)        │
 └─────────────────────────────────────────────────────────────────┘
 
-
+```
 
 
 ## 2. TECHNOLOGY STACK (Optimized for 8GB RAM, CPU-only)
@@ -131,7 +131,7 @@ loguru==0.7.2
 
 ## 3. COMPLETE PROJECT FOLDER STRUCTURE
 
-
+```
 ai-surveillance-platform/
 │
 ├── README.md
@@ -425,4 +425,4 @@ ai-surveillance-platform/
     ├── watchlist/                  # Watchlist photos
     ├── embeddings/                 # Face embeddings cache
     └── temp/                       # Temporary processing
-
+```
