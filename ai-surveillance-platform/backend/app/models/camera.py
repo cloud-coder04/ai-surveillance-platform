@@ -51,4 +51,4 @@ class Camera(Base):
     detections = relationship("Detection", back_populates="camera", cascade="all, delete-orphan")
     
     def __repr__(self):
-        return f""
+        return f"<Camera(id={self.id}, name={self.name}, type={self.source_type})>"

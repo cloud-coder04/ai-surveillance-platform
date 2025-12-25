@@ -40,4 +40,4 @@ class BlockchainReceipt(Base):
     created_at = Column(DateTime, default=datetime.utcnow, index=True)
     
     def __repr__(self):
-        return f""
+        return f"<BlockchainReceipt(tx_id={self.tx_id}, type={self.tx_type}, status={self.status})>"
